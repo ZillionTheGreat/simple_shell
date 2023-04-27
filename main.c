@@ -1,4 +1,3 @@
-main.c
 #include "shell.h"
 
 /**
@@ -37,7 +36,7 @@ int main(int ac, char **av)
 			}
 			return (EXIT_FAILURE);
 		}
-		info->readfg = fg;
+		info->readfd = fg;
 	}
 	populate_env_list(info);
 	read_history(info);

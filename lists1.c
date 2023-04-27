@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * list_to_strings - this returns an array of strings of the list->str
+ * list_to_strings - this returns array of strings of the list->str
  * @head: the pointer to the first node
  *
  * Return: the array of strings
@@ -31,7 +31,7 @@ char **list_to_strings(list_t *head)
 		}
 
 		str = _strcpy(str, node->str);
-		strs[i] = str;
+		strs[a] = str;
 	}
 	strs[a] = NULL;
 	return (strs);

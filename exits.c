@@ -32,11 +32,11 @@ char *_strncpy(char *dest, char *src, int n)
 }
 
 /**
- **_strncat - concatenates two strings
+ **_strncat - links two strings
  *@dest: First string
  *@src: Second string
  *@n: Amount of bytes to be used
- *Return: concatenated string
+ *Return: linked string
  */
 
 char *_strncat(char *dest, char *src, int n)

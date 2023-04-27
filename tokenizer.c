@@ -34,15 +34,15 @@ char **strtow2(char *str, char d)
 		if (!s[b])
 		{
 			for (c = 0; c < b; c++)
-				free(s[k]);
+				free(s[c]);
 			free(s);
 			return (NULL);
 		}
 		for (e = 0; e < c; e++)
-			s[b][m] = str[a++];
+			s[b][e] = str[a++];
 		s[b][e] = 0;
 	}
-	s[j] = NULL;
+	s[b] = NULL;
 	return (s);
 }
 
